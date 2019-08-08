@@ -23,8 +23,7 @@ function rasterOnMap(element, json, colors, intro, duration) {
     json.objects[Object.keys(json.objects)[0]]
   ).features;
 
-  mapboxgl.accessToken =
-    "pk.eyJ1Ijoiem5pY2hvbGFzYnJvd24iLCJhIjoiY2o5enRqNTE0OG5tbDJxcGFjb2FrMHdsbCJ9.2Qtt9ub_mkuW-KOh1HcVXQ";
+  mapboxgl.accessToken = ""; // Input access token here
   let map = new mapboxgl.Map({
     container: "root",
     style: "mapbox://styles/mapbox/dark-v9",
